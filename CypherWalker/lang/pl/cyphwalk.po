@@ -1,0 +1,205 @@
+# Cypher Walker
+# Copyright (C) 2015 PeCeT_full
+# This file is distributed under the same license as the CypherWalker package.
+# PeCeT_full <pecetfull@komputermania.pl.eu.org>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cypher Walker 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-13 15:52+0200\n"
+"PO-Revision-Date: 2015-07-15 17:58+0200\n"
+"Last-Translator: PeCeT_full <pecetfull@komputermania.pl.eu.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=windows-1250\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: pl\n"
+
+#: dump/CypherWalkerMain.cpp:118
+msgid "&About..."
+msgstr "O &grze..."
+
+#: dump/OptionsDialog.cpp:73
+msgid "&Apply"
+msgstr "&Zastosuj"
+
+#: dump/EnterNameDialog.cpp:39 dump/OptionsDialog.cpp:71
+msgid "&Cancel"
+msgstr "&Anuluj"
+
+#: dump/HiScoresDialog.cpp:89
+msgid "&Erase all"
+msgstr "&Wyczyœæ wszystko"
+
+#: dump/CypherWalkerMain.cpp:114
+msgid "&High scores"
+msgstr "&Najlepsze wyniki"
+
+#: dump/EnterNameDialog.cpp:36 dump/HiScoresDialog.cpp:86
+#: dump/OptionsDialog.cpp:68
+msgid "&OK"
+msgstr ""
+
+#: dump/CypherWalkerMain.cpp:116
+msgid "&Options"
+msgstr "&Opcje"
+
+#: dump/CypherWalkerMain.cpp:111
+msgid "&Play"
+msgstr "&Zagraj"
+
+#: dump/CypherWalkerMain.cpp:121
+msgid "&Quit"
+msgstr "&Wyjœcie"
+
+#: dump/CypherWalkerMain.cpp:172
+msgid "A dynamic logic game designed for both vintage and modern computers.\n"
+"\n"
+"Build info: "
+msgstr "Dynamiczna gra logiczna zaprojektowana zarówno dla zabytkowych jak i nowoczesnych komputerów.\n"
+"\n"
+"Informacje o buildzie: "
+
+#: dump/OptionsDialog.cpp:115
+msgid "Another language has just been selected. To reflect all the changes, please restart the application."
+msgstr "W³aœnie zosta³ wybrany inny jêzyk. Aby wszelkie zmiany zosta³y odzwierciedlone, proszê zrestartowaæ aplikacjê."
+
+#: dump/wxTranslationHelper.cpp:73
+msgid "Array of language names and identifiers should have the same size."
+msgstr "Tablica nazw jêzyków powinna byæ tego samego rozmiaru, co tablica identyfikatorów."
+
+#: dump/OptionsDialog.cpp:64
+msgid "C&hange"
+msgstr "Z&mieñ"
+
+#: dump/CypherWalkerMain.cpp:283
+#, c-format
+msgid "Congratulations! You've gained %d points in total."
+msgstr "Gratulacje! Uzyska³eœ razem %d punkt(y/ów)."
+
+#: dump/EnterNameDialog.cpp:30
+#, c-format
+msgid "Congratulations! You've made it into the Top 5 with %d points you've got!\n"
+"Please enter your name: "
+msgstr "Gratulacje! Dosta³eœ siê do najlepszej pi¹tki z %d punktami, które zdoby³eœ!\n"
+"Proszê wpisaæ swoj¹ nazwê: "
+
+#: dump/OptionsDialog.cpp:62 dump/OptionsDialog.cpp:95
+msgid "Current language: "
+msgstr "Obecny jêzyk: "
+
+#: dump/CypherWalkerMain.cpp:86 dump/CypherWalkerMain.cpp:169
+msgid "Cypher Walker"
+msgstr "Cyfro³azik"
+
+#: dump/CypherWalkerMain.h:37
+msgid "Cypher Walker - Score: "
+msgstr "Cyfro³azik - Wynik: "
+
+#: dump/CypherWalkerMain.cpp:104
+msgid "Down (&K)"
+msgstr "Dó³ (&K)"
+
+#: dump/EnterNameDialog.cpp:68
+msgid "Error"
+msgstr "B³¹d"
+
+#: dump/OptionsDialog.cpp:39
+msgid "Game options"
+msgstr "Opcje gry"
+
+#: dump/CypherWalkerMain.cpp:283 dump/EnterNameDialog.cpp:26
+msgid "Game over"
+msgstr "Koniec gry"
+
+#: dump/CypherWalkerMain.cpp:220
+msgid "Generating and initialising the board, please wait..."
+msgstr "Generowanie oraz inicjowanie planszy, proszê czekaæ..."
+
+#: dump/HiScoresDialog.cpp:39
+msgid "Hall of Fame"
+msgstr "Galeria s³aw"
+
+#: dump/HiScoresDialog.cpp:37
+msgid "High scores"
+msgstr "Najlepsze wyniki"
+
+#: dump/CypherWalkerMain.cpp:173
+msgid "http://www.komputermania.pl.eu.org"
+msgstr "http://www.komputermania.pl.eu.org/pl"
+
+#: dump/wxTranslationHelper.cpp:74
+msgid "Language"
+msgstr "Jêzyk"
+
+#: dump/CypherWalkerMain.cpp:97
+msgid "Left (&J)"
+msgstr "Lewo (&J)"
+
+#: dump/OptionsDialog.cpp:50
+msgid "Lost game sound:"
+msgstr "DŸwiêk przegranej gry:"
+
+#: dump/OptionsDialog.cpp:46
+msgid "Making a move sound:"
+msgstr "DŸwiêk wykonania ruchu:"
+
+#: dump/OptionsDialog.cpp:115
+msgid "Message"
+msgstr "Komunikat"
+
+#: dump/OptionsDialog.cpp:42
+msgid "New game sound:"
+msgstr "DŸwiêk nowej gry:"
+
+#: dump/OptionsDialog.cpp:54
+msgid "New record sound:"
+msgstr "DŸwiêk nowego rekordu:"
+
+#: dump/CypherWalkerMain.cpp:100
+msgid "Right (&L)"
+msgstr "Prawo (&L)"
+
+#: dump/wxTranslationHelper.cpp:74
+msgid "Select your language."
+msgstr "Wybierz swój jêzyk."
+
+#: dump/CypherWalkerMain.cpp:174
+msgid "This program is published under The MIT License. For more information, please refer to the Licence.txt file included with the application."
+msgstr "Ten program jest publikowany na zasadach licencji MIT. Wiêcej informacji mo¿na uzyskaæ zapoznaj¹c siê z plikiem Licence.txt do³¹czonym do aplikacji (polskie t³umaczenie licencji MIT: http://blaszyk-jarosinski.pl/wp-content/uploads/2008/05/licencja-mit-tlumaczenie.pdf)."
+
+#: dump/CypherWalkerMain.cpp:93
+msgid "Up (&I)"
+msgstr "Góra (&I)"
+
+#: dump/EnterNameDialog.cpp:68
+msgid "Your name consists of at least one vertical bar. Please remove them and try again."
+msgstr "Twoja nazwa sk³ada siê z co najmniej jednej kreski pionowej. Proszê je usun¹æ i spróbowaæ jeszcze raz."
+
+#: About
+msgid "About "
+msgstr "O grze "
+
+#: License
+msgid "License"
+msgstr "Licencja"
+
+#: English
+msgid "English"
+msgstr "Angielski"
+
+#: English (Canada)
+msgid "English (Canada)"
+msgstr "Angielski (Kanada)"
+
+#: Polish
+msgid "Polish"
+msgstr "Polski"
+
+#: German
+msgid "German"
+msgstr "Niemiecki"
+

@@ -1,0 +1,29 @@
+Cyfro³azik (Cypher Walker) 1.0
+Autor: PeCeT_full
+Data wydania: 15 lipca 2015
+Strona WWW: http://www.komputermania.pl.eu.org/pl
+Copyright © by PeCeT_full 2015. Cyfro³azik jest publikowany na zasadach licencji MIT. Wiêcej informacji mo¿na uzyskaæ zapoznaj¹c siê z plikiem Licence.txt do³¹czonym do aplikacji (polskie t³umaczenie licencji MIT: http://blaszyk-jarosinski.pl/wp-content/uploads/2008/05/licencja-mit-tlumaczenie.pdf).
+
+W razie wszelkich problemów czy te¿ w¹tpliwoœci proszê o kontakt.
+
+--------
+Opis gry
+--------
+
+Cyfro³azik to dynamiczna gra logiczna zaprojektowana zarówno dla zabytkowych jak i nowoczesnych komputerów (jako eksperyment) gdzie naszym zadaniem jest wype³nienie planszy sk³adaj¹cej siê z losowo wygenerowanych cyfr (od 1 do 9) tyloma zerami, ile siê tylko da. Zosta³a ona napisana w jêzyku C++ i korzysta z biblioteki graficznego interfejsu u¿ytkownika wxWidgets. Gra ta zosta³a stworzona w celu uczczenia 20. rocznicy systemu Windows 95!
+
+Minimalne wymagania sprzêtowe i systemowe: procesor o mocy 133 MHz lub szybszy; 8 MB dostêpnej pamiêci RAM; 1,2 MB dostêpnego wolnego miejsca na dysku, w którym znajduje siê gra; system operacyjny Windows 95 lub nowszy.
+
+---------
+Jak graæ?
+---------
+
+Po rozpoczêciu gry mamy do dyspozycji planszê o rozmiarze 25x25. Pierwsze zero jest umiejsciowione na wspó³rzêdnych 13x13 (œrodek planszy gry), a zatem jest to nasz punkt startowy. Na pocz¹tku mamy cztery kierunki do wyboru, dopóki ewentualny ruch w jakimkolwiek przypadku nie spowodowa³by przekroczenia granicy planszy lub nasza œcie¿ka zwyczajnie by³aby przeszkod¹. S¹siednia cyfra reprezentuje liczbê kroków – jeœli wszystkie warunki s¹ spe³nione i zdecydujemy siê tam pójœæ, jesteœmy oczywiœcie z dala o tê liczbê kroków od naszej poprzedniej pozycji oraz uzyskujemy tê sam¹ iloœæ punktów. Gra koñczy siê wówczas, gdy ¿aden ruch nie jest mo¿liwy, natomiast by pojawiæ siê na liœcie najwy¿szych wyników, musimy osi¹gn¹æ przynajmniej tak¹ iloœæ punktów, jak¹ ma pi¹ta na liœcie osoba. Powodzenia!
+
+Rada: Je¿eli zaraz po uruchomieniu Cyfro³azika klikniesz lewym przyciskiem myszy na „Zagraj” albo naciœniesz klawisz Tab, a nastêpnie Enter na swojej klawiaturze, bêdziesz w stanie u¿ywaæ jej do podejmowania decyzji z nastêpuj¹c¹ klawiszologi¹: I dla ruchu w górê, J dla ruchu w lewo, L dla ruchu w prawo oraz K dla ruchu w dó³.
+
+---------
+Opcje gry
+---------
+
+Mo¿emy tam zmieniæ dŸwiêki towarzysz¹ce podczas rozgrywki m.in. w momentach, gdy nowa gra zosta³a rozpoczêta, wykonano ruch, przegrano grê lub gracz zakwalifikowa³ siê do najlepszej pi¹tki na liœcie najwy¿szych wyników. Aby wyciszyæ jakikolwiek z nich, wystarczy wyczyœciæ odpowiadaj¹ce mu pole tekstowe. Mo¿emy tak¿e wybraæ inny jêzyk.

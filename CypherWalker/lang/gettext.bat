@@ -1,0 +1,1 @@
+xgettext cppfiles/* -d cyphwalk -s --keyword=_ -p cppfiles/ -o cyphwalk.pot
