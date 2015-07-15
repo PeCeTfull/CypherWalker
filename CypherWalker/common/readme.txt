@@ -20,7 +20,7 @@ How to play?
 
 When you start the game, you are given a board which is of size 25x25. The first zero is located at coordinates 13x13 (the centre of the game board) and thus, this is your starting point. In the beginning, you have four directions available until the probable movement in any case would cause the board boundary to be surpassed or your path basically becomes an obstacle. The neighbouring digit represents the number of steps – if all conditions are met and you decide to go there, you are obviously away that number of steps from your previous position and gain the same amount of points. The game finishes once no movements are possible while in order to appear in the high score list, you must reach at least the amount of points the fifth person has. Good luck!
 
-Tip: Right after you launch Cypher Walker, if you click the left mouse button on "Play" or press the Tab key and then Enter on your keyboard, you'll be able to use it for making decisions with the following keyboard controls: I for going up, J for going left, L for going right and K for going down.
+Tip: Right after you launch Cypher Walker, if you click the left mouse button on "Play" or press the Tab key and then Enter on your keyboard, you will be able to use it for making decisions with the following keyboard controls: I for going up, J for going left, L for going right and K for going down.
 
 ------------
 Game options
