@@ -1,6 +1,6 @@
 ﻿# Cypher Walker #
 
-Cypher Walker is a dynamic puzzle game designed for both vintage and modern computers (as an experiment) where your task is to fill the board consisting of randomly generated digits (from 1 to 9) with as many zeros as you simply can. It was written in C++ and uses wxWidgets GUI library. This game was created in order to celebrate the 20th Anniversary of Windows 95!
+Cypher Walker is a dynamic logic game designed for both vintage and modern computers (as an experiment) where your task is to fill the board consisting of randomly generated digits (from 1 to 9) with as many zeros as you simply can. It was written in C++ and uses wxWidgets GUI library. This game was created in order to celebrate the 20th Anniversary of Windows 95!
 
 ### How to play? ###
 
@@ -13,6 +13,8 @@ Tip: Right after you launch Cypher Walker, if you click the left mouse button on
 There, you can change sounds that are played during the game, such as when a new game is started, a movement is made, the game is lost or the player qualified to the top 5 of high scores. To mute any of them, just clear its corresponding text box. You can also choose another language.
 
 ### Recommended programming setup ###
+
+Source and target OS: Windows
 
 IDE: Code::Blocks 13.12
 
