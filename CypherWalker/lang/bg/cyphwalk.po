@@ -8,88 +8,88 @@ msgstr ""
 "Project-Id-Version: Cypher Walker 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 15:39+0200\n"
-"PO-Revision-Date: 2018-07-20 13:13+0200\n"
+"PO-Revision-Date: 2018-07-20 11:30+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=windows-1250\n"
+"Content-Type: text/plain; charset=windows-1251\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.5\n"
 "Last-Translator: PeCeT_full <me@pecetfull.pl>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"Language: sk\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: bg\n"
 
 #: dump/CypherWalkerMain.cpp:118
 msgid "&About..."
-msgstr "O &hre..."
+msgstr "Îòíîñíî &èãðàòà…"
 
 #: dump/OptionsDialog.cpp:73
 msgid "&Apply"
-msgstr "&Použi"
+msgstr "&Ïðèëîæè"
 
 #: dump/EnterNameDialog.cpp:39 dump/OptionsDialog.cpp:71
 msgid "&Cancel"
-msgstr "&Zruši"
+msgstr "&Îòêàç"
 
 #: dump/HiScoresDialog.cpp:89
 msgid "&Erase all"
-msgstr "&Vymaza všetko"
+msgstr "&Èç÷èñòè âñè÷êî"
 
 #: dump/CypherWalkerMain.cpp:114
 msgid "&High scores"
-msgstr "&Najvyššie skóre"
+msgstr "&Íàé-äîáðèòå èãðà÷è"
 
 #: dump/EnterNameDialog.cpp:36 dump/HiScoresDialog.cpp:86
 #: dump/OptionsDialog.cpp:68
 msgid "&OK"
-msgstr "&OK"
+msgstr "&Äîáðå"
 
 #: dump/CypherWalkerMain.cpp:116
 msgid "&Options"
-msgstr "&Možnosti"
+msgstr "&Îïöèè"
 
 #: dump/CypherWalkerMain.cpp:111
 msgid "&Play"
-msgstr "&Zahra"
+msgstr "È&ãðàé"
 
 #: dump/CypherWalkerMain.cpp:121
 msgid "&Quit"
-msgstr "&Skonèi"
+msgstr "Èç&õîä"
 
 #: dump/CypherWalkerMain.cpp:172
 msgid "A dynamic logic game designed for both vintage and modern computers.\n"
 "\n"
 "Build info: "
-msgstr "Dynamická logická hra navrhnutá pre staré a moderné poèítaèe.\n"
+msgstr "Äèíàìè÷íà ëîãè÷åñêà èãðà ïðîåêòèðàíà êàêòî çà ñòàðè, òàêà è çà ìîäåðíè êîìïþòðè.\n"
 "\n"
-"Build - informácie: "
+"Èíôîðìàöèÿ çà áèëä: "
 
 #: dump/OptionsDialog.cpp:115
 msgid "Another language has just been selected. To reflect all the changes, please restart the application."
-msgstr "Bol práve vybraný iný jazyk. Aby odrazi všetky zmeny, prosím, reštartujte program."
+msgstr "Òîêó ùî áå èçáðàí äðóã åçèê. Çà äà îòðàçèòå âñè÷êè ïðîìåíè, ìîëÿ ðåñòàðòèðàéòå ïðèëîæåíèåòî."
 
 #: dump/wxTranslationHelper.cpp:73
 msgid "Array of language names and identifiers should have the same size."
-msgstr "Pole názvov jazykov a identifikátorov mali by rovnakej ve¾kosti."
+msgstr "Ìàñèâ íà èìåíàòà íà åçèöèòå è ìàñèâ íà èäåíòèôèêàòîðèòå òðÿáâà äà áúäàò ñ åäíàêúâ ðàçìåð."
 
 #: dump/OptionsDialog.cpp:64
 msgid "C&hange"
-msgstr "Z&meni"
+msgstr "Ï&ðîìåíè"
 
 #: dump/CypherWalkerMain.cpp:283
 #, c-format
 msgid "Congratulations! You've gained %d points in total."
-msgstr "Gratulujem! Získali ste spolu %d bod(y/ov)."
+msgstr "Ïîçäðàâëåíèÿ! Âèå ñïå÷åëèõòå îáùî %d òî÷êè."
 
 #: dump/EnterNameDialog.cpp:30
 #, c-format
 msgid "Congratulations! You've made it into the Top 5 with %d points you've got!\n"
 "Please enter your name: "
-msgstr "Gratulujem! Podarilo sa Vám dosta do najlepších pä so %d získanými bodmi!\n"
-"Prosím, zadajte Vaše meno: "
+msgstr "Ïîçäðàâëåíèÿ! Âèå óñïÿõòå äà âëåçåòå â êëàñèðàíåòî íà ïåòòå íàé-äîáðè ñ %d òî÷êè, êîèòî ñïå÷åëèõòå!\n"
+"Ìîëÿ âúâåäåòå âàøåòî èìå: "
 
 #: dump/OptionsDialog.cpp:62 dump/OptionsDialog.cpp:95
 msgid "Current language: "
-msgstr "Aktuálny jazyk: "
+msgstr "Òåêóù åçèê: "
 
 #: dump/CypherWalkerMain.cpp:86 dump/CypherWalkerMain.cpp:169
 msgid "Cypher Walker"
@@ -97,35 +97,35 @@ msgstr ""
 
 #: dump/CypherWalkerMain.h:37
 msgid "Cypher Walker - Score: "
-msgstr "Cypher Walker - Skóre: "
+msgstr "Cypher Walker - Ðåçóëòàò: "
 
 #: dump/CypherWalkerMain.cpp:104
 msgid "Down (&K)"
-msgstr "Dole (&K)"
+msgstr "Äîëó (&K)"
 
 #: dump/EnterNameDialog.cpp:68
 msgid "Error"
-msgstr "Chyba"
+msgstr "Ãðåøêà"
 
 #: dump/OptionsDialog.cpp:39
 msgid "Game options"
-msgstr "Možnosti hry"
+msgstr "Îïöèè íà èãðàòà"
 
 #: dump/CypherWalkerMain.cpp:283 dump/EnterNameDialog.cpp:26
 msgid "Game over"
-msgstr "Koniec hry"
+msgstr "Èãðàòà ïðèêëþ÷è"
 
 #: dump/CypherWalkerMain.cpp:220
 msgid "Generating and initialising the board, please wait..."
-msgstr "Generovanie a inicializovanie dosky, poèkajte, prosím..."
+msgstr "Ãåíåðèðàíå è èíèöèàëèçèðàíå íà äúñêàòà, ìîëÿ èç÷àêàéòå..."
 
 #: dump/HiScoresDialog.cpp:39
 msgid "Hall of Fame"
-msgstr "Sieò slávy"
+msgstr "Çàëà íà ñëàâàòà"
 
 #: dump/HiScoresDialog.cpp:37
 msgid "High scores"
-msgstr "Najvyššie skóre"
+msgstr "Íàé-âèñîêè ðåçóëòàòè"
 
 #: dump/CypherWalkerMain.cpp:173
 msgid "http://www.komputermania.pl.eu.org"
@@ -133,81 +133,81 @@ msgstr ""
 
 #: dump/wxTranslationHelper.cpp:74
 msgid "Language"
-msgstr "Jazyk"
+msgstr "Åçèê"
 
 #: dump/CypherWalkerMain.cpp:97
 msgid "Left (&J)"
-msgstr "V¾avo (&J)"
+msgstr "Ëÿâî (&J)"
 
 #: dump/OptionsDialog.cpp:50
 msgid "Lost game sound:"
-msgstr "Zvuk stratenej hry:"
+msgstr "Çâóê íà çàãóáåíà èãðà:"
 
 #: dump/OptionsDialog.cpp:46
 msgid "Making a move sound:"
-msgstr "Zvuk vykonania pohybu:"
+msgstr "Çâóê íà ïðàâåíå íà äâèæåíèå:"
 
 #: dump/OptionsDialog.cpp:115
 msgid "Message"
-msgstr "Hlásenie"
+msgstr "Èíôîðìàöèÿ"
 
 #: dump/OptionsDialog.cpp:42
 msgid "New game sound:"
-msgstr "Zvuk novej hry:"
+msgstr "Çâóê íà íîâà èãðà:"
 
 #: dump/OptionsDialog.cpp:54
 msgid "New record sound:"
-msgstr "Zvuk nového rekordu:"
+msgstr "Çâóê íà íîâ ðåêîðä:"
 
 #: dump/CypherWalkerMain.cpp:100
 msgid "Right (&L)"
-msgstr "Vpravo (&L)"
+msgstr "Äÿñíî (&L)"
 
 #: dump/wxTranslationHelper.cpp:74
 msgid "Select your language."
-msgstr "Vyberte svoj jazyk."
+msgstr "Èçáåðåòå âàøèÿ åçèê."
 
 #: dump/CypherWalkerMain.cpp:174
 msgid "This program is published under The MIT License. For more information, please refer to the Licence.txt file included with the application."
-msgstr "Tento program je zverejnený pod licenciou MIT. Ïalšie informácie nájdete v súbore Licence.txt, ktorý je súèasou aplikácie."
+msgstr "Òàçè ïðîãðàìà å ïóáëè÷íî äîñòúïíà ïîä ëèöåíçà MIT. Çà ïîâå÷å èíôîðìàöèÿ ìîëÿ ïðîâåðåòå ñå äî ôàéëúò Licence.txt âêëþ÷åí â ïðèëîæåíèåòî."
 
 #: dump/CypherWalkerMain.cpp:93
 msgid "Up (&I)"
-msgstr "Hore (&I)"
+msgstr "Ãîðå (&I)"
 
 #: dump/EnterNameDialog.cpp:68
 msgid "Your name consists of at least one vertical bar. Please remove them and try again."
-msgstr "Vaše meno sa skladá z najmenej jednej zvislej èiary. Prosím, odstráòte je a skúste znova."
+msgstr "Âàøåòî èìå ñå ñúñòîè îò ïîíå åäíà âåðòèêàëíà ëèíèÿ. Ìîëÿ ïðåìàõíåòå ãè è îïèòàéòå ïàê."
 
 #: About
 msgid "About "
-msgstr "O hre "
+msgstr "Îòíîñíî "
 
 #: License
 msgid "License"
-msgstr "Licencia"
+msgstr "Ëèöåíç"
 
 #: Bulgarian
 msgid "Bulgarian"
-msgstr "Bulharèina"
+msgstr "áúëãàðñêè"
 
 #: English
 msgid "English"
-msgstr "Angliètina"
+msgstr "àíãëèéñêè"
 
 #: English (Canada)
 msgid "English (Canada)"
-msgstr "Angliètina (Kanada)"
+msgstr "àíãëèéñêè (Êàíàäà)"
 
 #: Polish
 msgid "Polish"
-msgstr "Po¾ština"
+msgstr "ïîëñêè"
 
 #: German
 msgid "German"
-msgstr "Nemèina"
+msgstr "íåìñêè"
 
 #: Slovak
 msgid "Slovak"
-msgstr "Slovenèina"
+msgstr "ñëîâàøêè"
 
