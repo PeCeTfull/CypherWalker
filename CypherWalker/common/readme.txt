@@ -1,8 +1,8 @@
-Cypher Walker 1.0
+Cypher Walker 1.0.1
 Author: PeCeT_full
-Release date: 15th July 2015
-Website: http://www.komputermania.pl.eu.org
-Copyright (c) by PeCeT_full 2015. Cypher Walker is published under The MIT License. For more information, please refer to Licence.txt included with the application.
+Release date: 30th January 2021
+Website: http://www.pecetfull.pl
+Copyright (c) by PeCeT_full 2015-2021. Cypher Walker is published under The MIT License. For more information, please refer to Licence.txt included with the application.
 
 If there are any problems or doubts, please contact me.
 

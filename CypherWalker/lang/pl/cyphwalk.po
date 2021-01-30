@@ -1,20 +1,20 @@
 # Cypher Walker
-# Copyright (C) 2015 PeCeT_full
+# Copyright (C) 2015-2021 PeCeT_full
 # This file is distributed under the same license as the CypherWalker package.
-# PeCeT_full <pecetfull@komputermania.pl.eu.org>, 2015.
+# PeCeT_full <me@pecetfull.pl>, 2015-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Cypher Walker 1.0\n"
+"Project-Id-Version: Cypher Walker 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 15:52+0200\n"
-"PO-Revision-Date: 2015-07-15 17:58+0200\n"
-"Last-Translator: PeCeT_full <pecetfull@komputermania.pl.eu.org>\n"
+"PO-Revision-Date: 2021-01-30 11:21+0100\n"
+"Last-Translator: PeCeT_full <me@pecetfull.pl>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=windows-1250\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 2.0.5\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Language: pl\n"
 
@@ -26,9 +26,9 @@ msgstr "O &grze..."
 msgid "&Apply"
 msgstr "&Zastosuj"
 
-#: dump/EnterNameDialog.cpp:39 dump/OptionsDialog.cpp:71
-msgid "&Cancel"
-msgstr "&Anuluj"
+#: dump/OptionsDialog.cpp:64
+msgid "&Change"
+msgstr "Z&mieñ"
 
 #: dump/HiScoresDialog.cpp:89
 msgid "&Erase all"
@@ -37,11 +37,6 @@ msgstr "&Wyczyœæ wszystko"
 #: dump/CypherWalkerMain.cpp:114
 msgid "&High scores"
 msgstr "&Najlepsze wyniki"
-
-#: dump/EnterNameDialog.cpp:36 dump/HiScoresDialog.cpp:86
-#: dump/OptionsDialog.cpp:68
-msgid "&OK"
-msgstr ""
 
 #: dump/CypherWalkerMain.cpp:116
 msgid "&Options"
@@ -55,13 +50,13 @@ msgstr "&Zagraj"
 msgid "&Quit"
 msgstr "&Wyjœcie"
 
-#: dump/CypherWalkerMain.cpp:172
+#: dump/CypherWalkerMain.cpp:173
 msgid "A dynamic logic game designed for both vintage and modern computers.\n"
 "\n"
 "Build info: "
 msgstr "Dynamiczna gra logiczna zaprojektowana zarówno dla zabytkowych jak i nowoczesnych komputerów.\n"
 "\n"
-"Informacje o buildzie: "
+"Informacje o kompilacji: "
 
 #: dump/OptionsDialog.cpp:115
 msgid "Another language has just been selected. To reflect all the changes, please restart the application."
@@ -71,11 +66,11 @@ msgstr "W³aœnie zosta³ wybrany inny jêzyk. Aby wszelkie zmiany zosta³y odzwierci
 msgid "Array of language names and identifiers should have the same size."
 msgstr "Tablica nazw jêzyków powinna byæ tego samego rozmiaru, co tablica identyfikatorów."
 
-#: dump/OptionsDialog.cpp:64
-msgid "C&hange"
-msgstr "Z&mieñ"
+#: dump/EnterNameDialog.cpp:39 dump/OptionsDialog.cpp:71
+msgid "Cancel"
+msgstr "Anuluj"
 
-#: dump/CypherWalkerMain.cpp:283
+#: dump/CypherWalkerMain.cpp:289
 #, c-format
 msgid "Congratulations! You've gained %d points in total."
 msgstr "Gratulacje! Uzyska³eœ razem %d punkt(y/ów)."
@@ -91,7 +86,7 @@ msgstr "Gratulacje! Dosta³eœ siê do najlepszej pi¹tki z %d punktami, które zdoby
 msgid "Current language: "
 msgstr "Obecny jêzyk: "
 
-#: dump/CypherWalkerMain.cpp:86 dump/CypherWalkerMain.cpp:169
+#: dump/CypherWalkerMain.cpp:86 dump/CypherWalkerMain.cpp:170
 msgid "Cypher Walker"
 msgstr "Cyfro³azik"
 
@@ -111,11 +106,11 @@ msgstr "B³¹d"
 msgid "Game options"
 msgstr "Opcje gry"
 
-#: dump/CypherWalkerMain.cpp:283 dump/EnterNameDialog.cpp:26
+#: dump/CypherWalkerMain.cpp:289 dump/EnterNameDialog.cpp:26
 msgid "Game over"
 msgstr "Koniec gry"
 
-#: dump/CypherWalkerMain.cpp:220
+#: dump/CypherWalkerMain.cpp:221
 msgid "Generating and initialising the board, please wait..."
 msgstr "Generowanie oraz inicjowanie planszy, proszê czekaæ..."
 
@@ -127,9 +122,9 @@ msgstr "Galeria s³aw"
 msgid "High scores"
 msgstr "Najlepsze wyniki"
 
-#: dump/CypherWalkerMain.cpp:173
-msgid "http://www.komputermania.pl.eu.org"
-msgstr "http://www.komputermania.pl.eu.org/pl"
+#: dump/CypherWalkerMain.cpp:174
+msgid "http://www.pecetfull.pl"
+msgstr "http://www.pecetfull.pl/pl"
 
 #: dump/wxTranslationHelper.cpp:74
 msgid "Language"
@@ -159,6 +154,11 @@ msgstr "DŸwiêk nowej gry:"
 msgid "New record sound:"
 msgstr "DŸwiêk nowego rekordu:"
 
+#: dump/EnterNameDialog.cpp:36 dump/HiScoresDialog.cpp:86
+#: dump/OptionsDialog.cpp:68
+msgid "OK"
+msgstr "OK"
+
 #: dump/CypherWalkerMain.cpp:100
 msgid "Right (&L)"
 msgstr "Prawo (&L)"
@@ -167,7 +167,7 @@ msgstr "Prawo (&L)"
 msgid "Select your language."
 msgstr "Wybierz swój jêzyk."
 
-#: dump/CypherWalkerMain.cpp:174
+#: dump/CypherWalkerMain.cpp:175
 msgid "This program is published under The MIT License. For more information, please refer to the Licence.txt file included with the application."
 msgstr "Ten program jest publikowany na zasadach licencji MIT. Wiêcej informacji mo¿na uzyskaæ zapoznaj¹c siê z plikiem Licence.txt do³¹czonym do aplikacji (polskie t³umaczenie licencji MIT: http://blaszyk-jarosinski.pl/wp-content/uploads/2008/05/licencja-mit-tlumaczenie.pdf)."
 
@@ -179,6 +179,14 @@ msgstr "Góra (&I)"
 msgid "Your name consists of at least one vertical bar. Please remove them and try again."
 msgstr "Twoja nazwa sk³ada siê z co najmniej jednej kreski pionowej. Proszê je usun¹æ i spróbowaæ jeszcze raz."
 
+#: OK (with hotkey)
+msgid "&OK"
+msgstr "&OK"
+
+#: Cancel (with hotkey)
+msgid "&Cancel"
+msgstr "&Anuluj"
+
 #: About
 msgid "About "
 msgstr "O grze "
@@ -186,6 +194,18 @@ msgstr "O grze "
 #: License
 msgid "License"
 msgstr "Licencja"
+
+#: Translators
+msgid "Translators"
+msgstr "T³umacze"
+
+#: Bulgarian
+msgid "Bulgarian"
+msgstr "Bu³garski"
+
+#: Czech
+msgid "Czech"
+msgstr "Czeski"
 
 #: English
 msgid "English"
@@ -195,11 +215,19 @@ msgstr "Angielski"
 msgid "English (Canada)"
 msgstr "Angielski (Kanada)"
 
-#: Polish
-msgid "Polish"
-msgstr "Polski"
+#: Estonian
+msgid "Estonian"
+msgstr "Estoñski"
 
 #: German
 msgid "German"
 msgstr "Niemiecki"
+
+#: Polish
+msgid "Polish"
+msgstr "Polski"
+
+#: Slovak
+msgid "Slovak"
+msgstr "S³owacki"
 

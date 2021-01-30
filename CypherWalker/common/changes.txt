@@ -1,0 +1,10 @@
+The changelog of Cypher Walker
+
+1.0.1 (2021-01-30): 
+* included existing translations: Bulgarian, Slovak and Czech; 
+* fixed German and Polish translation; 
+* added new Estonian translation by Mojito & Matuzka; 
+* removed shortcut keys for the OK and Cancel buttons; 
+* optimised game board reload.
+
+1.0 (2015-07-15) — first public release version.

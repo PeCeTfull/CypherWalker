@@ -61,14 +61,14 @@ OptionsDialog::OptionsDialog(short& languageID, wxString& newGameSoundFileName, 
 	FlexGridSizer4 = new wxFlexGridSizer(0, 2, 0, 0);
 	CurrentLanguageStaticText = new wxStaticText(this, ID_CURRENTLANGUAGESTATICTEXT, _("Current language: "), wxDefaultPosition, wxDefaultSize, 0, _T("ID_CURRENTLANGUAGESTATICTEXT"));
 	FlexGridSizer4->Add(CurrentLanguageStaticText, 1, wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL, 5);
-	ChangeLanguageButton = new wxButton(this, ID_CHANGELANGUAGEBUTTON, _("C&hange"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("ID_CHANGELANGUAGEBUTTON"));
+	ChangeLanguageButton = new wxButton(this, ID_CHANGELANGUAGEBUTTON, _("&Change"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("ID_CHANGELANGUAGEBUTTON"));
 	FlexGridSizer4->Add(ChangeLanguageButton, 1, wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL, 5);
 	FlexGridSizer1->Add(FlexGridSizer4, 1, wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
 	FlexGridSizer3 = new wxFlexGridSizer(0, 3, 0, 0);
-	OKButton = new wxButton(this, wxID_YES, _("&OK"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("wxID_YES"));
+	OKButton = new wxButton(this, wxID_YES, _("OK"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("wxID_YES"));
 	OKButton->SetDefault();
 	FlexGridSizer3->Add(OKButton, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, wxDLG_UNIT(this,wxSize(5,0)).GetWidth());
-	CancelButton = new wxButton(this, wxID_OK, _("&Cancel"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("wxID_OK"));
+	CancelButton = new wxButton(this, wxID_OK, _("Cancel"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("wxID_OK"));
 	FlexGridSizer3->Add(CancelButton, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, wxDLG_UNIT(this,wxSize(5,0)).GetWidth());
 	ApplyButton = new wxButton(this, ID_APPLYBUTTON, _("&Apply"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("ID_APPLYBUTTON"));
 	FlexGridSizer3->Add(ApplyButton, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, wxDLG_UNIT(this,wxSize(5,0)).GetWidth());

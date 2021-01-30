@@ -7,84 +7,84 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cypher Walker 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 18:08+0200\n"
-"PO-Revision-Date: 2015-07-15 17:58+0200\n"
-"Last-Translator: PeCeT_full <me@pecetfull.pl>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-07-13 15:39+0200\n"
+"PO-Revision-Date: 2021-01-30 11:21+0100\n"
+"Language-Team: Mojito & Matuzka\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=windows-1250\n"
+"Content-Type: text/plain; charset=windows-1257\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 2.0.5\n"
+"Last-Translator: PeCeT_full <me@pecetfull.pl>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: de\n"
+"Language: et\n"
 
 #: dump/CypherWalkerMain.cpp:118
 msgid "&About..."
-msgstr "&Über..."
+msgstr "&Teave..."
 
 #: dump/OptionsDialog.cpp:73
 msgid "&Apply"
-msgstr "&Anwenden"
+msgstr "&Rakenda"
 
 #: dump/OptionsDialog.cpp:64
 msgid "&Change"
-msgstr "&Ändern"
+msgstr "&Muuda"
 
 #: dump/HiScoresDialog.cpp:89
 msgid "&Erase all"
-msgstr "Alles &löschen"
+msgstr "&Tühjenda kõik"
 
 #: dump/CypherWalkerMain.cpp:114
 msgid "&High scores"
-msgstr "Beste &Punktzahlen"
+msgstr "&Parimad tulemused"
 
 #: dump/CypherWalkerMain.cpp:116
 msgid "&Options"
-msgstr "&Optionen"
+msgstr "&Suvandid"
 
 #: dump/CypherWalkerMain.cpp:111
 msgid "&Play"
-msgstr "&Spielen"
+msgstr "&Mängi"
 
 #: dump/CypherWalkerMain.cpp:121
 msgid "&Quit"
-msgstr "&Beenden"
+msgstr "&Välju"
 
 #: dump/CypherWalkerMain.cpp:173
 msgid "A dynamic logic game designed for both vintage and modern computers.\n"
 "\n"
 "Build info: "
-msgstr "Ein dynamisches Logikspiel sowohl für altmodischen als auch modernen Computer entwickelt.\n"
+msgstr "Dünaamiline loogikamäng, mis on mõeldud nii vanadele kui ka tänapäevastele arvutitele.\n"
 "\n"
-"Build-Info: "
+"Ehitusjärk: "
 
 #: dump/OptionsDialog.cpp:115
 msgid "Another language has just been selected. To reflect all the changes, please restart the application."
-msgstr "Eine andere Sprache hat gerade ausgewählt worden. Um alle Änderungen zu übernehmen, starten Sie bitte die Anwendung neu."
+msgstr "Teine keel on just valitud. Kõigi muudatuste kajastamiseks taaskäivitage rakendus."
 
 #: dump/wxTranslationHelper.cpp:73
 msgid "Array of language names and identifiers should have the same size."
-msgstr "Das Array von Sprachennamen und Kennungen sollte die gleiche Größe haben."
+msgstr "Keelenimede ja identifikaatorite massiiv peaks olema sama suur."
 
 #: dump/EnterNameDialog.cpp:39 dump/OptionsDialog.cpp:71
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr "Loobu"
 
 #: dump/CypherWalkerMain.cpp:289
 #, c-format
 msgid "Congratulations! You've gained %d points in total."
-msgstr "Herzlichen Glückwunsch! Sie haben insgesamt %d Punkte erlangt."
+msgstr "Palju õnne! Olete kokku saanud %d punkti."
 
 #: dump/EnterNameDialog.cpp:30
 #, c-format
 msgid "Congratulations! You've made it into the Top 5 with %d points you've got!\n"
 "Please enter your name: "
-msgstr "Herzlichen Glückwunsch! Sie haben es unter die besten 5 mit %d Punkte, die Sie erzielt haben, geschafft!\n"
-"Bitte geben Sie Ihren Namen ein: "
+msgstr "Palju õnne! Olete pääsenud 5 parema hulka %d punktidega, mis te teenisite!\n"
+"Palun sisestage oma nimi: "
 
 #: dump/OptionsDialog.cpp:62 dump/OptionsDialog.cpp:95
 msgid "Current language: "
-msgstr "Aktuelle Sprache: "
+msgstr "Praegune keel: "
 
 #: dump/CypherWalkerMain.cpp:86 dump/CypherWalkerMain.cpp:170
 msgid "Cypher Walker"
@@ -92,67 +92,67 @@ msgstr "Cypher Walker"
 
 #: dump/CypherWalkerMain.h:37
 msgid "Cypher Walker - Score: "
-msgstr "Cypher Walker - Punktestand: "
+msgstr "Cypher Walker - Punktiseis: "
 
 #: dump/CypherWalkerMain.cpp:104
 msgid "Down (&K)"
-msgstr "Runter (&K)"
+msgstr "Alla (&K)"
 
 #: dump/EnterNameDialog.cpp:68
 msgid "Error"
-msgstr "Fehler"
+msgstr "Viga"
 
 #: dump/OptionsDialog.cpp:39
 msgid "Game options"
-msgstr "Spieloptionen"
+msgstr "Mängu suvandid"
 
 #: dump/CypherWalkerMain.cpp:289 dump/EnterNameDialog.cpp:26
 msgid "Game over"
-msgstr "Ende des Spiels"
+msgstr "Mäng läbi"
 
 #: dump/CypherWalkerMain.cpp:221
 msgid "Generating and initialising the board, please wait..."
-msgstr "Das Brett wird generiert und initialisiert, bitte warten..."
+msgstr "Genereerin ja algväärtustan laud, palun oota..."
 
 #: dump/HiScoresDialog.cpp:39
 msgid "Hall of Fame"
-msgstr "Ruhmeshalle"
+msgstr "Kuulsuste hall"
 
 #: dump/HiScoresDialog.cpp:37
 msgid "High scores"
-msgstr "Beste Punktzahlen"
+msgstr "Parimad tulemused"
 
 #: dump/CypherWalkerMain.cpp:174
 msgid "http://www.pecetfull.pl"
-msgstr "http://www.pecetfull.pl/de"
+msgstr "http://www.pecetfull.pl"
 
 #: dump/wxTranslationHelper.cpp:74
 msgid "Language"
-msgstr "Sprache"
+msgstr "Keel"
 
 #: dump/CypherWalkerMain.cpp:97
 msgid "Left (&J)"
-msgstr "Links (&J)"
+msgstr "Vasak (&J)"
 
 #: dump/OptionsDialog.cpp:50
 msgid "Lost game sound:"
-msgstr "Klang eines verlorenen Spiels:"
+msgstr "Kaotatud mängu heli:"
 
 #: dump/OptionsDialog.cpp:46
 msgid "Making a move sound:"
-msgstr "Klang eines gemachten Schritts:"
+msgstr "Heli liigutuse tegemisel:"
 
 #: dump/OptionsDialog.cpp:115
 msgid "Message"
-msgstr "Nachricht"
+msgstr "Teade"
 
 #: dump/OptionsDialog.cpp:42
 msgid "New game sound:"
-msgstr "Klang eines neuen Spiels:"
+msgstr "Uus mängu heli:"
 
 #: dump/OptionsDialog.cpp:54
 msgid "New record sound:"
-msgstr "Klang eines neuen Rekords:"
+msgstr "Uus rekordi heli:"
 
 #: dump/EnterNameDialog.cpp:36 dump/HiScoresDialog.cpp:86
 #: dump/OptionsDialog.cpp:68
@@ -161,23 +161,23 @@ msgstr "OK"
 
 #: dump/CypherWalkerMain.cpp:100
 msgid "Right (&L)"
-msgstr "Rechts (&L)"
+msgstr "Parem (&L)"
 
 #: dump/wxTranslationHelper.cpp:74
 msgid "Select your language."
-msgstr "Wählen Sie Ihre Sprache aus."
+msgstr "Valige oma keel."
 
 #: dump/CypherWalkerMain.cpp:175
 msgid "This program is published under The MIT License. For more information, please refer to the Licence.txt file included with the application."
-msgstr "Dieses Programm steht unter der MIT-Lizenz. Weitere Angaben hierzu finden Sie unter Licence.txt-Datei in der Anwendung enthalten."
+msgstr "See programm on avaldatud MIT-litsentsi all. Lisateavet leiate rakendusega kaasas olevast failist License.txt."
 
 #: dump/CypherWalkerMain.cpp:93
 msgid "Up (&I)"
-msgstr "Hoch (&I)"
+msgstr "Üles (&I)"
 
 #: dump/EnterNameDialog.cpp:68
 msgid "Your name consists of at least one vertical bar. Please remove them and try again."
-msgstr "Ihr Name besteht aus mindestens einen senkrechten Strich. Bitte entfernen Sie ihnen und versuchen Sie es erneut."
+msgstr "Teie nimi koosneb vähemalt ühest vertikaalsest tähest. Eemaldage need ja proovige uuesti."
 
 #: OK (with hotkey)
 msgid "&OK"
@@ -185,49 +185,49 @@ msgstr "&OK"
 
 #: Cancel (with hotkey)
 msgid "&Cancel"
-msgstr "&Abbrechen"
+msgstr "&Loobu"
 
 #: About
 msgid "About "
-msgstr "Über "
+msgstr "Teave mängu kohta - "
 
 #: License
 msgid "License"
-msgstr "Lizenz"
+msgstr "Litsents"
 
 #: Translators
 msgid "Translators"
-msgstr "Übersetzer"
+msgstr "Tõlkijad"
 
 #: Bulgarian
 msgid "Bulgarian"
-msgstr "Bulgarisch"
+msgstr "Bulgaaria"
 
 #: Czech
 msgid "Czech"
-msgstr "Tschechisch"
+msgstr "Tðehhi"
 
 #: English
 msgid "English"
-msgstr "Englisch"
+msgstr "Inglise"
 
 #: English (Canada)
 msgid "English (Canada)"
-msgstr "Englisch (Kanada)"
+msgstr "Inglise (Kanada)"
 
 #: Estonian
 msgid "Estonian"
-msgstr "Estnisch"
+msgstr "Eesti"
 
 #: German
 msgid "German"
-msgstr "Deutsch"
+msgstr "Saksa"
 
 #: Polish
 msgid "Polish"
-msgstr "Polnisch"
+msgstr "Poola"
 
 #: Slovak
 msgid "Slovak"
-msgstr "Slowakisch"
+msgstr "Slovaki"
 

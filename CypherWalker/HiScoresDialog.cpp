@@ -83,7 +83,7 @@ HiScoresDialog::HiScoresDialog(wxWindow* parent, wxWindowID id)
 	FlexGridSizer2->Add(ScoreStaticText5, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
 	FlexGridSizer1->Add(FlexGridSizer2, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
 	FlexGridSizer3 = new wxFlexGridSizer(0, 2, 0, 0);
-	OKButton = new wxButton(this, wxID_OK, _("&OK"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("wxID_OK"));
+	OKButton = new wxButton(this, wxID_OK, _("OK"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("wxID_OK"));
 	OKButton->SetDefault();
 	FlexGridSizer3->Add(OKButton, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, wxDLG_UNIT(this,wxSize(5,0)).GetWidth());
 	EraseAllButton = new wxButton(this, ID_ERASEALLBUTTON, _("&Erase all"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("ID_ERASEALLBUTTON"));

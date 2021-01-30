@@ -168,11 +168,12 @@ void CypherWalkerDialog::OnAbout(wxCommandEvent& event)
     wxAboutDialogInfo info;
     info.SetIcon(wxIcon(wxT(ICON_NAME)));
     info.SetName(_("Cypher Walker"));
-    info.SetVersion(wxT("1.0"));
-    info.SetCopyright(wxT("Copyright (C) PeCeT_full 2015 <pecetfull@komputermania.pl.eu.org>"));
+    info.SetVersion(wxT("1.0.1"));
+    info.SetCopyright(wxT("Copyright (C) PeCeT_full 2015-2021 <me@pecetfull.pl>"));
     info.SetDescription(_("A dynamic logic game designed for both vintage and modern computers.\n\nBuild info: ") + wxT(wxBuildInfo(long_f) + '.'));
-    info.SetWebSite(_("http://www.komputermania.pl.eu.org"));
+    info.SetWebSite(_("http://www.pecetfull.pl"));
     info.SetLicence(_("This program is published under The MIT License. For more information, please refer to the Licence.txt file included with the application."));
+    info.AddTranslator(wxString::Format(wxT("%s: Mojito && Matuzka"), _("Estonian")));
 
     wxAboutBox(info);
 }
@@ -221,10 +222,14 @@ void CypherWalkerDialog::OnPlayButtonClick(wxCommandEvent& event)
     wxBusyInfo wait(_("Generating and initialising the board, please wait..."));
     totalScore = 0;
     wxTopLevelWindow::SetTitle(_T(wxString::Format(wxT(titleWithScore + "%d"), totalScore)));
+    this->Freeze();
     if(!firstLaunch)
         CleanGamePanel();
     else
         firstLaunch = false;
+    this->Thaw();
+    this->Update();
+    this->Freeze();
     lastPassedX = 12;
     lastPassedY = 12;
     wxFont buttonToAddFont(8, wxSWISS, wxFONTSTYLE_NORMAL, wxNORMAL, false, _T(SYSTEM_FONT_NAME), wxFONTENCODING_DEFAULT);
@@ -252,6 +257,7 @@ void CypherWalkerDialog::OnPlayButtonClick(wxCommandEvent& event)
     DownButton->Enable();
     if(drawPanel != NULL)
         drawPanel->Hide();
+    this->Thaw();
     soundFile->Play(wxGetApp().newGameSoundFileName);
 }
 

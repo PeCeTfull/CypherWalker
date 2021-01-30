@@ -141,7 +141,7 @@
 					<cols>2</cols>
 					<object class="sizeritem">
 						<object class="wxButton" name="wxID_OK" variable="OKButton" member="yes">
-							<label>&amp;OK</label>
+							<label>OK</label>
 							<default>1</default>
 							<handler function="OnOKButtonClick" entry="EVT_BUTTON" />
 						</object>

@@ -1,0 +1,10 @@
+Spis zmian gry Cyfro³azik
+
+1.0.1 (30.I.2021): 
+* do³¹czono istniej¹ce t³umaczenia: bu³garskie, s³owackie i czeskie; 
+* poprawiono niemieckie i polskie t³umaczenie; 
+* dodano nowe estoñskie t³umaczenie autorstwa u¿ytkowników Mojito i Matuzka; 
+* usuniêto klawisze skrótu dla przycisku OK oraz Anuluj; 
+* zoptymalizowano prze³adowanie planszy gry.
+
+1.0 (15.VII.2015) — pierwsza publicznie wydana wersja.

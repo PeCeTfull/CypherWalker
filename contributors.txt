@@ -1,1 +1,3 @@
-PeCeT_full (http://www.komputermania.pl.eu.org)
+Project and programming: PeCeT_full (http://www.pecetfull.pl)
+
+Estonian translation: Mojito, Matuzka

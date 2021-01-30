@@ -1,11 +1,11 @@
 # Cypher Walker
-# Copyright (C) 2015 PeCeT_full
+# Copyright (C) 2015-2021 PeCeT_full
 # This file is distributed under the same license as the CypherWalker package.
-# PeCeT_full <pecetfull@komputermania.pl.eu.org>, 2015.
+# PeCeT_full <me@pecetfull.pl>, 2015-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Cypher Walker 1.0\n"
+"Project-Id-Version: Cypher Walker 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 15:39+0200\n"
 "PO-Revision-Date: 2018-07-20 11:30+0200\n"
@@ -26,9 +26,9 @@ msgstr "Относно &играта…"
 msgid "&Apply"
 msgstr "&Приложи"
 
-#: dump/EnterNameDialog.cpp:39 dump/OptionsDialog.cpp:71
-msgid "&Cancel"
-msgstr "&Отказ"
+#: dump/OptionsDialog.cpp:64
+msgid "&Change"
+msgstr "П&ромени"
 
 #: dump/HiScoresDialog.cpp:89
 msgid "&Erase all"
@@ -37,11 +37,6 @@ msgstr "&Изчисти всичко"
 #: dump/CypherWalkerMain.cpp:114
 msgid "&High scores"
 msgstr "&Най-добрите играчи"
-
-#: dump/EnterNameDialog.cpp:36 dump/HiScoresDialog.cpp:86
-#: dump/OptionsDialog.cpp:68
-msgid "&OK"
-msgstr "&Добре"
 
 #: dump/CypherWalkerMain.cpp:116
 msgid "&Options"
@@ -55,7 +50,7 @@ msgstr "И&грай"
 msgid "&Quit"
 msgstr "Из&ход"
 
-#: dump/CypherWalkerMain.cpp:172
+#: dump/CypherWalkerMain.cpp:173
 msgid "A dynamic logic game designed for both vintage and modern computers.\n"
 "\n"
 "Build info: "
@@ -71,11 +66,11 @@ msgstr "Току що бе избран друг език. За да отразите всички промени, моля рестарт
 msgid "Array of language names and identifiers should have the same size."
 msgstr "Масив на имената на езиците и масив на идентификаторите трябва да бъдат с еднакъв размер."
 
-#: dump/OptionsDialog.cpp:64
-msgid "C&hange"
-msgstr "П&ромени"
+#: dump/EnterNameDialog.cpp:39 dump/OptionsDialog.cpp:71
+msgid "Cancel"
+msgstr "Отказ"
 
-#: dump/CypherWalkerMain.cpp:283
+#: dump/CypherWalkerMain.cpp:289
 #, c-format
 msgid "Congratulations! You've gained %d points in total."
 msgstr "Поздравления! Вие спечелихте общо %d точки."
@@ -91,9 +86,9 @@ msgstr "Поздравления! Вие успяхте да влезете в класирането на петте най-добри с 
 msgid "Current language: "
 msgstr "Текущ език: "
 
-#: dump/CypherWalkerMain.cpp:86 dump/CypherWalkerMain.cpp:169
+#: dump/CypherWalkerMain.cpp:86 dump/CypherWalkerMain.cpp:170
 msgid "Cypher Walker"
-msgstr ""
+msgstr "Cypher Walker"
 
 #: dump/CypherWalkerMain.h:37
 msgid "Cypher Walker - Score: "
@@ -111,11 +106,11 @@ msgstr "Грешка"
 msgid "Game options"
 msgstr "Опции на играта"
 
-#: dump/CypherWalkerMain.cpp:283 dump/EnterNameDialog.cpp:26
+#: dump/CypherWalkerMain.cpp:289 dump/EnterNameDialog.cpp:26
 msgid "Game over"
 msgstr "Играта приключи"
 
-#: dump/CypherWalkerMain.cpp:220
+#: dump/CypherWalkerMain.cpp:221
 msgid "Generating and initialising the board, please wait..."
 msgstr "Генериране и инициализиране на дъската, моля изчакайте..."
 
@@ -127,9 +122,9 @@ msgstr "Зала на славата"
 msgid "High scores"
 msgstr "Най-високи резултати"
 
-#: dump/CypherWalkerMain.cpp:173
-msgid "http://www.komputermania.pl.eu.org"
-msgstr ""
+#: dump/CypherWalkerMain.cpp:174
+msgid "http://www.pecetfull.pl"
+msgstr "http://www.pecetfull.pl"
 
 #: dump/wxTranslationHelper.cpp:74
 msgid "Language"
@@ -159,6 +154,11 @@ msgstr "Звук на нова игра:"
 msgid "New record sound:"
 msgstr "Звук на нов рекорд:"
 
+#: dump/EnterNameDialog.cpp:36 dump/HiScoresDialog.cpp:86
+#: dump/OptionsDialog.cpp:68
+msgid "OK"
+msgstr "Добре"
+
 #: dump/CypherWalkerMain.cpp:100
 msgid "Right (&L)"
 msgstr "Дясно (&L)"
@@ -167,7 +167,7 @@ msgstr "Дясно (&L)"
 msgid "Select your language."
 msgstr "Изберете вашия език."
 
-#: dump/CypherWalkerMain.cpp:174
+#: dump/CypherWalkerMain.cpp:175
 msgid "This program is published under The MIT License. For more information, please refer to the Licence.txt file included with the application."
 msgstr "Тази програма е публично достъпна под лиценза MIT. За повече информация моля проверете се до файлът Licence.txt включен в приложението."
 
@@ -179,6 +179,14 @@ msgstr "Горе (&I)"
 msgid "Your name consists of at least one vertical bar. Please remove them and try again."
 msgstr "Вашето име се състои от поне една вертикална линия. Моля премахнете ги и опитайте пак."
 
+#: OK (with hotkey)
+msgid "&OK"
+msgstr "&Добре"
+
+#: Cancel (with hotkey)
+msgid "&Cancel"
+msgstr "&Отказ"
+
 #: About
 msgid "About "
 msgstr "Относно "
@@ -187,9 +195,17 @@ msgstr "Относно "
 msgid "License"
 msgstr "Лиценз"
 
+#: Translators
+msgid "Translators"
+msgstr "Преводачи"
+
 #: Bulgarian
 msgid "Bulgarian"
 msgstr "български"
+
+#: Czech
+msgid "Czech"
+msgstr "чешки"
 
 #: English
 msgid "English"
@@ -199,13 +215,17 @@ msgstr "английски"
 msgid "English (Canada)"
 msgstr "английски (Канада)"
 
-#: Polish
-msgid "Polish"
-msgstr "полски"
+#: Estonian
+msgid "Estonian"
+msgstr "естонски"
 
 #: German
 msgid "German"
 msgstr "немски"
+
+#: Polish
+msgid "Polish"
+msgstr "полски"
 
 #: Slovak
 msgid "Slovak"
