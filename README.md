@@ -25,3 +25,7 @@ Additional info: The post-build script for Release contains the line that launch
 ### Program licence ###
 
 Cypher Walker is published under The MIT License. Please refer to the LICENSE.txt file of this repository for more information regarding it.
+
+### Screenshots ###
+
+<img width="634" height="435" alt="The main board of Cypher Walker" src="https://github.com/user-attachments/assets/9b0c1e7c-9866-46b4-ab56-2411e3a240f7" />
